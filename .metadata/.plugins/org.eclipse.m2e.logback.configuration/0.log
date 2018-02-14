@@ -1,0 +1,1501 @@
+2018-02-10 03:17:12,146 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:77) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 60 common frames omitted
+2018-02-10 03:17:12,294 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:77) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 59 common frames omitted
+2018-02-10 03:17:12,303 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 62 common frames omitted
+2018-02-10 03:17:12,339 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 61 common frames omitted
+2018-02-10 03:17:12,347 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 62 common frames omitted
+2018-02-10 03:17:12,356 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 61 common frames omitted
+2018-02-10 03:17:12,365 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 60 common frames omitted
+2018-02-10 03:17:12,373 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 59 common frames omitted
+2018-02-10 03:17:12,381 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 60 common frames omitted
+2018-02-10 03:17:12,388 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 59 common frames omitted
+2018-02-10 03:17:12,398 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 60 common frames omitted
+2018-02-10 03:17:12,410 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 59 common frames omitted
+2018-02-10 03:17:12,431 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:151) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 62 common frames omitted
+2018-02-10 03:17:12,439 [main] ERROR o.e.m.j.i.JavaElementsAdapterFactory - Can't find artifact for mysql-connector-java-5.1.45-bin.jar [in fj21-agenda]
+  <default> (...)
+  com.mysql (...)
+  com.mysql.fabric.proto (...)
+  com.mysql.jdbc.configs (...)
+  com.mysql.jdbc.profiler (...)
+  com (...)
+  com.mysql.fabric (...)
+  com.mysql.fabric.proto.xmlrpc (...)
+  org (...)
+  org.gjt.mm.mysql (...)
+  com.mysql.jdbc.util (...)
+  com.mysql.jdbc.integration (...)
+  org.gjt (...)
+  com.mysql.jdbc.exceptions.jdbc4 (...)
+  com.mysql.fabric.jdbc (...)
+  com.mysql.jdbc.jdbc2.optional (...)
+  com.mysql.jdbc.jdbc2 (...)
+  com.mysql.jdbc.integration.jboss (...)
+  com.mysql.jdbc.interceptors (...)
+  com.mysql.fabric.hibernate (...)
+  com.mysql.jdbc.integration.c3p0 (...)
+  org.gjt.mm (...)
+  com.mysql.jdbc.authentication (...)
+  com.mysql.jdbc.exceptions (...)
+  com.mysql.jdbc (...)
+  com.mysql.fabric.xmlrpc (...)
+  com.mysql.jdbc.log (...)
+  com.mysql.fabric.xmlrpc.base (...)
+  com.mysql.fabric.xmlrpc.exceptions (...)
+  com.mysql.jdbc.jmx (...)
+org.eclipse.core.runtime.CoreException: Search error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:306) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.identify(NexusIndex.java:141) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identifyAll(CompositeIndex.java:67) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.CompositeIndex.identify(CompositeIndex.java:59) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifactInIndex(BuildPathManager.java:455) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifacts(BuildPathManager.java:399) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.findArtifact(BuildPathManager.java:417) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.JavaElementsAdapterFactory.getAdapter(JavaElementsAdapterFactory.java:59) ~[na:na]
+	at org.eclipse.core.internal.adapter.AdapterFactoryProxy.getAdapter(AdapterFactoryProxy.java:82) [org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar:na]
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getType(SelectionUtil.java:156) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.MavenPropertyTester.test(MavenPropertyTester.java:72) [org.eclipse.m2e.core.ui_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53) [org.eclipse.core.expressions_3.4.501.v20131118-1915.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:374) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:242) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:303) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:83) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:325) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:399) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500) [org.eclipse.jface_3.9.1.v20130725-1141.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1470) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5610) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4089) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3644) [org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20140206-1358.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997) [org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140) [org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20130327-1442.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181) [org.eclipse.osgi_3.9.1.v20140110-1610.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+Caused by: java.io.FileNotFoundException: /Users/jonathascampos/Documents/workspace/fj21-agenda/mysql-connector-java-5.1.45-bin.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_151]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_151]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_151]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:1263) ~[na:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.identify(NexusIndexManager.java:303) ~[na:na]
+	... 61 common frames omitted
+2018-02-12 04:48:17,390 [pool-2-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:17,390 [pool-2-thread-2] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:18,971 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/maven-metadata.xml
+2018-02-12 04:48:18,986 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/maven-metadata.xml
+2018-02-12 04:48:22,171 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/jvnet/wagon-svn/wagon-svn/maven-metadata.xml
+2018-02-12 04:48:22,319 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:24,016 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.pom
+2018-02-12 04:48:24,087 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:24,462 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.pom
+2018-02-12 04:48:24,464 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.pom
+2018-02-12 04:48:24,680 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:27,792 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.jar
+2018-02-12 04:48:27,797 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:28,168 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.jar
+2018-02-12 04:48:28,358 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/wagon-svn/wagon-svn/1.12/wagon-svn-1.12.jar
+2018-02-12 04:48:29,041 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:30,764 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.pom
+2018-02-12 04:48:30,769 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:31,146 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.pom
+2018-02-12 04:48:31,177 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.pom
+2018-02-12 04:48:31,412 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:33,113 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+2018-02-12 04:48:33,118 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:33,492 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+2018-02-12 04:48:33,494 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+2018-02-12 04:48:33,699 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:35,366 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2018-02-12 04:48:35,374 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:35,732 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2018-02-12 04:48:35,734 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2018-02-12 04:48:35,937 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:37,926 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2018-02-12 04:48:37,933 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:38,327 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2018-02-12 04:48:38,329 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2018-02-12 04:48:38,651 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:40,485 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+2018-02-12 04:48:40,490 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:40,861 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+2018-02-12 04:48:40,862 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+2018-02-12 04:48:41,060 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:42,741 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+2018-02-12 04:48:42,748 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:43,114 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+2018-02-12 04:48:43,116 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+2018-02-12 04:48:43,335 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:46,633 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/apache/maven/maven-parent/4/maven-parent-4.pom
+2018-02-12 04:48:46,641 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:47,000 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+2018-02-12 04:48:47,010 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+2018-02-12 04:48:47,219 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:48,886 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/apache/apache/3/apache-3.pom
+2018-02-12 04:48:48,893 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:49,745 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2018-02-12 04:48:49,747 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2018-02-12 04:48:49,976 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:51,953 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2018-02-12 04:48:51,960 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:52,340 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2018-02-12 04:48:52,342 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2018-02-12 04:48:52,605 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:54,618 [New I/O client worker #25-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.jar
+2018-02-12 04:48:54,618 [New I/O client worker #25-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+2018-02-12 04:48:55,738 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://download.java.net/maven/glassfish/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.jar
+2018-02-12 04:48:55,751 [Worker-158] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 04:48:56,127 [New I/O client worker #26-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.jar
+2018-02-12 04:48:56,145 [New I/O client worker #26-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+2018-02-12 04:48:56,163 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.jar
+2018-02-12 04:48:57,170 [New I/O client worker #26-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.jar
+2018-02-12 04:48:57,391 [New I/O client worker #26-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+2018-02-12 04:49:01,428 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/hudson/svnkit/svnkit/1.1.4-hudson-4/svnkit-1.1.4-hudson-4.jar
+2018-02-12 05:37:40,046 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:40,563 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-02-12 05:37:40,564 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-02-12 05:37:40,823 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:41,192 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2018-02-12 05:37:41,192 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2018-02-12 05:37:41,391 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:41,793 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.pom
+2018-02-12 05:37:41,794 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.pom
+2018-02-12 05:37:42,003 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:42,400 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/web/jsp/2.2/jsp-2.2.pom
+2018-02-12 05:37:42,401 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/web/jsp/2.2/jsp-2.2.pom
+2018-02-12 05:37:42,608 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:42,984 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.pom
+2018-02-12 05:37:42,984 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.pom
+2018-02-12 05:37:43,178 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:43,553 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/web/el/2.2/el-2.2.pom
+2018-02-12 05:37:43,554 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/web/el/2.2/el-2.2.pom
+2018-02-12 05:37:43,771 [Worker-177] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2018-02-12 05:37:44,223 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2018-02-12 05:37:44,240 [New I/O client worker #33-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.jar
+2018-02-12 05:37:44,259 [New I/O client worker #33-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar
+2018-02-12 05:37:44,460 [New I/O client worker #33-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/el/el-api/2.2/el-api-2.2.jar
+2018-02-12 05:37:44,670 [New I/O client worker #33-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar
+2018-02-12 05:37:44,769 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
